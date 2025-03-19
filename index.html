@@ -5,27 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabela grande</title>
+
+    <style>
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table {
+        width: 500px;
+        border-collapse: ;
+    }
+    td, th {
+        border: 1px solid black;
+        padding: 10px;
+    }
+    thead, tfoot {
+        background-color: gray;
+        color: white;
+    }
+    td.num {
+        text-align: right;
+    }
+    </style>
+
+
+
 </head>
-<body>
-    font-family: Arial, Helvetica, sans-serif;
-}
-table {
-    width: 500px;
-    border-collapse: ;
-}
-td, th {
-    border: 1px solid black;
-    padding: 10px;
-}
-thead, tfoot {
-    background-color: gray;
-    color: white;
-}
-td.num {
-    text-align: right;
-}
-</style>
-</head>
+
+
 <body>
 <table>
     <caption>População do Estado Brasileiros - 2024</caption>
@@ -56,21 +61,89 @@ td.num {
     <tr>
         <td>Amazonas</td>
         <td class="num">4.269.995</td>
-        
+        <td>'Texto riscado' e 'Texto sublinhado'</td>
+
     </tr>
     <tr>
-        <td>Paraná</td>
-        <td class="num">11 824 665</td>
-    </tr>[
+        <td>Bahia</td>
+        <td>14.141.626</td>
+        <td>texto sobrescrito</td>
+    </tr>
     <tr>
-        <td>Rio Grande do Sul</td>
-        <td class="num">11 229 915</td>
+        <td>CE</td>
+        <td class="num">9.240.580</td>
+        <td>'abreviação'</td>
+    </tr>
+    <tr>
+        <td>Distrito Federal</td>
+        <td class="num">3.098.883</td>
+        <td>'Texto em negrito'</td>
+    </tr>
+    <tr>
+        <td>"Espirito Santo"</td>
+        <td class="num">4.108.508</td>
+        <td>"Citação curta"</td>
+    </tr>
+    <tr>
+        <td>Goiás</td>
+        <td class="num">7.206.589</td>
+        <td>'Citação de fonte'</td>
+    </tr>
+    <tr>
+        <td>maranhão</td>
+        <td class="num">6.775.805</td>
+        <td>'texto monoespaçado'</td>
+    </tr>
+    <tr>
+        <td>Mato Grosso</td>
+        <td class="num">3.658.813</td>
+        <td>'
+            <br>
+            Texto pré-formatado
+            <br>
+            '</td>
+    </tr>
+    <tr>
+        <td>Paraíba</td>
+        <td class="num">4.059.905</td>
+        <td>'Texto pequeno'</td>
+    </tr>
+    <tr>
+        <td>Piauí</td>
+        <td class="num">3.281.480</td>
+        <td>'Texto subscrito'</td>
+    </tr>
+    <tr>
+        <td>Rio de janeiro</td>
+        <td class="num">16.054.524</td>
+        <td>'abreviação'</td>
+    </tr>
+    <tr>
+        <td>Rio grande do sul</td>
+        <td class="num">10.882.965</td>
+        <td>'Negrito'</td>
+    </tr>
+    <tr>
+        <td>Rondônia</td>
+        <td class="num">1.616.379</td>
+        <td>'Itálico'</td>
+    </tr>
+    <tr>
+        <td>Roraima</td>
+        <td class="num">636.707</td>
+        <td>'Texto destacado'</td>
+    </tr>
+    <tr>
+        <td>TO</td>
+        <td class="num">1.607.363</td>
+        <td>'abreviação'</td>
     </tr>
 </tbody>
 <tfoot>
     <tr>
-        <th>Total de Habitantes</th>
-        <td class="num"><strong>122.420.654</strong></td>
+        <th><strong>Total da população estimada:</strong></th>
+        <th class="num"><strong>Soma total</strong></th>
+        <td>realizar soma das colunas</td>
     </tr>
 
 </tfoot>
